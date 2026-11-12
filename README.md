@@ -7,8 +7,6 @@
 ![Android](https://img.shields.io/badge/Android-7.0%2B-3DDC84?logo=android&logoColor=white)
 ![Unity](https://img.shields.io/badge/Unity-2022.3%20LTS-black?logo=unity)
 ![License](https://img.shields.io/badge/license-MIT-blue)
-![Ads](https://img.shields.io/badge/реклама-нет-brightgreen)
-![Offline](https://img.shields.io/badge/интернет-не%20нужен-brightgreen)
 
 </div>
 
