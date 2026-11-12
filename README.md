@@ -10,8 +10,6 @@
 
 </div>
 
-<!-- Добавьте сюда скриншоты, когда будут: -->
-<!-- <p align="center"><img src="docs/screen1.png" width="240"> <img src="docs/screen2.png" width="240"> <img src="docs/screen3.png" width="240"></p> -->
 
 ## О игре
 
@@ -85,31 +83,3 @@
 
 Игра не собирает и не передаёт никаких данных и не запрашивает доступ в интернет.
 Рекорд, монеты, скины и настройки хранятся только на твоём телефоне. Подробнее — в [PRIVACY.md](PRIVACY.md).
-
-## Для разработчиков
-
-Проект сделан на **Unity 2022.3 LTS**. Мир, интерфейс, меши, звуки и музыка создаются из кода, внешних ассетов почти нет.
-
-```text
-1. Unity Hub → Add → папка проекта (нужен модуль Android Build Support)
-2. Открыть проект — настройки и сцена создадутся автоматически
-3. Меню «Тилкайо → Собрать APK»  →  Builds/TilkayoRun.apk
-```
-
-Сборка из консоли:
-
-```bash
-UNITY="/путь/к/Unity" ./build.sh
-```
-
-Структура: `Assets/Scripts/{Core,Audio,Gfx,Game,UI}`, шейдеры — `Assets/Resources/Shaders`, редакторные скрипты — `Assets/Editor`.
-Свои звуки и шрифт можно положить в `Assets/Resources/Audio` и `Assets/Resources/Fonts` (см. README внутри папок).
-
-## Лицензия
-
-Код проекта распространяется по лицензии [MIT](LICENSE).
-Сведения о лицензиях на изображения — в [ASSETS_LICENSE.md](ASSETS_LICENSE.md).
-
----
-
-Сделано с ❤️ автором **Sedr** · `com.sedr.tilkayorun`
